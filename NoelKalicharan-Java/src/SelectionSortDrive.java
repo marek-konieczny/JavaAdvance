@@ -24,12 +24,13 @@ public class SelectionSortDrive extends Methods{
 			System.exit(1);
 		}
 		
-		selectionSort(listToSort, 0, indexCounter-1);
+		selectionSort(listToSort, 0, indexCounter);
 		System.out.printf("\nNumbers after sort algorithm:\n");
-		for (currentInput = 0; currentInput < indexCounter; currentInput++) {
-			System.out.printf("%d ", listToSort[currentInput]);			
+		for (int i = 0; i < indexCounter; i++) {
+			System.out.printf("%d ", listToSort[i]);			
 		}
 		System.out.printf("\n");
+		
 		
 
 	}
